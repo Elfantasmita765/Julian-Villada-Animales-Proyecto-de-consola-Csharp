@@ -11,6 +11,7 @@ Habitat.Id = 2;
 Habitat.Nombre = "Selva";
 Habitat.Espacio = 50.0m;
 Habitat.Animales = new List<Animales>();
+Habitat.Animales.Add(new Animales() { Id = 7, Nombre = "Max", Tipo = "Lobo", Cuidadores = new List<Cuidadores>() });
 
 var Jaula = new Jaulas();
 Jaula.Id = 3;
