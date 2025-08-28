@@ -11,7 +11,11 @@ Habitat.Id = 2;
 Habitat.Nombre = "Selva";
 Habitat.Espacio = 50.0m;
 Habitat.Animales = new List<Animales>();
+<<<<<<< HEAD
 Habitat.Animales.Add(new Animales() { Id = 7, Nombre = "Max", Tipo = "Lobo", Cuidadores = new List<Cuidadores>() });
+=======
+Habitat.Animales.Add(new Animales(){Id= 9, Nombre= "Juan", Tipo = "Caballo", Cuidadores = new List<Cuidadores>()});
+>>>>>>> 8f5266e529860bb9585c0e80a08cd477b79aafdb
 
 var Jaula = new Jaulas();
 Jaula.Id = 3;
